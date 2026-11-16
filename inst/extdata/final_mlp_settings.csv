@@ -1,0 +1,2 @@
+"model","hidden_units","decay","classification_threshold"
+"MLP",5,0.001,0.19
