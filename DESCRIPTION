@@ -1,7 +1,7 @@
 Package: BreastCancerFNA
 Type: Package
 Title: Predict Breast Mass Malignancy from Fine Needle Aspirate Nuclear Features
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     person("Runlin", "Xu", email = "Runlin.Xu24@student.xjtlu.edu.cn",
            role = c("aut", "cre"))
