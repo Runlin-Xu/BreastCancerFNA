@@ -1,0 +1,24 @@
+citHeader("To cite BreastCancerFNA in publications, use:")
+
+bibentry(
+  bibtype = "Misc",
+  title   = "BreastCancerFNA: Predict Breast Mass Malignancy from Fine Needle Aspirate Nuclear Features",
+  author  = person(given = "Runlin", family = "Xu"),
+  year    = "2026",
+  note    = "R package version 1.0.2",
+  url     = "https://github.com/Runlin-Xu/BreastCancerFNA"
+)
+
+citHeader("The dataset comes from:")
+
+bibentry(
+  bibtype   = "InProceedings",
+  title     = "Nuclear feature extraction for breast tumor diagnosis",
+  author    = c(person("W. N.", "Street"),
+                person("W. H.", "Wolberg"),
+                person("O. L.", "Mangasarian")),
+  booktitle = "IS&T/SPIE 1993 International Symposium on Electronic Imaging",
+  volume    = "1905",
+  pages     = "861-870",
+  year      = "1993"
+)
