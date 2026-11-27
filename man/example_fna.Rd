@@ -5,9 +5,9 @@
 \alias{example_fna}
 \title{Example FNA features for ten breast masses}
 \format{
-A data frame with 10 rows and 31 columns: `id` (sample identifier)
+A data frame with 10 rows and 31 columns: \code{id} (sample identifier)
   followed by the 30 numeric features, using the original Kaggle column names
-  (including names that contain a space, such as `concave points_mean`).
+  (including names that contain a space, such as \code{concave points_mean}).
 }
 \source{
 \url{https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data}
@@ -17,10 +17,10 @@ example_fna
 }
 \description{
 A ten-row subset of the Breast Cancer Wisconsin (Diagnostic) dataset with the
-30 cell-nucleus features used by [predict_diagnosis()], plus the sample
-identifier. It is the same data as `inst/extdata/example_input.csv`, provided
-as a documented dataset so that examples and checks can load it with
-`data(example_fna)`.
+30 cell-nucleus features used by \code{\link{predict_diagnosis}()}, plus the
+sample identifier. It is the same data as
+\code{inst/extdata/example_input.csv}, provided as a documented dataset so
+that examples and checks can load it with \code{data(example_fna)}.
 }
 \examples{
 data(example_fna)
