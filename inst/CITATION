@@ -9,10 +9,9 @@ bibentry(
   url     = "https://github.com/Runlin-Xu/BreastCancerFNA"
 )
 
-citHeader("The dataset comes from:")
-
 bibentry(
   bibtype   = "InProceedings",
+  header    = "The dataset comes from:",
   title     = "Nuclear feature extraction for breast tumor diagnosis",
   author    = c(person("W. N.", "Street"),
                 person("W. H.", "Wolberg"),
