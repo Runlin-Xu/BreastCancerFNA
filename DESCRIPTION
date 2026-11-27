@@ -1,7 +1,7 @@
 Package: BreastCancerFNA
 Type: Package
 Title: Predict Breast Mass Malignancy from Fine Needle Aspirate Nuclear Features
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: 
     person("Runlin", "Xu", email = "Runlin.Xu24@student.xjtlu.edu.cn",
            role = c("aut", "cre"))
@@ -9,9 +9,10 @@ Description: Predicts whether a breast mass is malignant ("M") or benign ("B")
     from the 30 cell-nucleus features of the Breast Cancer Wisconsin
     (Diagnostic) Data Set. The model is a multilayer perceptron (MLP) that was
     selected by nested cross-validation among four candidate models. The fitted
-    model, the feature scaling values, the decision threshold and an example
-    input file are included in the package. For teaching and research only;
-    the model is not a clinically validated diagnostic tool.
+    model, the feature scaling values, the decision threshold, an example
+    input file and a documented ten-sample dataset are included in the package.
+    For teaching and research only; the model is not a clinically validated
+    diagnostic tool.
 License: MIT + file LICENSE
 URL: https://github.com/Runlin-Xu/BreastCancerFNA,
     https://xurunlin24.shinyapps.io/bio215-breast-cancer/
@@ -25,5 +26,7 @@ Imports:
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1
+LazyData: true
 Encoding: UTF-8
 RoxygenNote: 7.3.3
